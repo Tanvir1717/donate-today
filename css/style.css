@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.description {
+    font-size: 20px;
+    opacity: 80%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #E1523D;
+    color: #ffffff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.section-title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.section-padding {
+    padding-top: 150px;
+}
+
+
+/* banner-styles */
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/banner.jpg'), linear-gradient(180deg, rgba(255, 255, 255, .1), rgba(0, 0, 0, 1));
+    /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4); */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+
+/* banner-styles */
+
+
+/* amount-styles */
+
+.amount-section {
+    height: 80vh;
+}
+
+.amount {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.amount-box {
+    background-color: #ececec;
+    padding: 50px 30px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .6);
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.amount-box:hover {
+    background-color: rgba(225, 82, 61, .2);
+    outline: 1px solid #E1523D;
+    color: #E1523D;
+    cursor: pointer;
+}
+
+.taka-donate {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.taka-donate input {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    font-size: 24px;
+    width: 850px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.taka-donate input:focus {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    outline: none;
+}
+
+
+/* amount-styles */
+
+
+/* donate-plan-styles */
+
+
+/* donate-plan-styles */
