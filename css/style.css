@@ -222,6 +222,17 @@
 
 /* update-style */
 
+.container-contents {
+    background-color: rgba(255, 90, 51, .1);
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 70px 50px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
 .update-container .email {
     background-color: lightgray;
     color: darkgray;
@@ -244,17 +255,6 @@
     font-size: 24px;
 }
 
-.container-contents {
-    background-color: rgba(255, 90, 51, .1);
-    width: 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    padding: 80px 40px;
-    margin-top: 100px;
-    margin-bottom: 60px;
-}
-
 .update-container .email:focus {
     border: 0;
     outline: 0;
@@ -267,3 +267,26 @@
 
 
 /* update-style */
+
+
+/* footer-style */
+
+.footer-section {
+    background: #0D0D0D;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer-title {
+    font-family: 'Sevillana', cursive;
+    color: #E1523D;
+    font-size: 45px;
+}
+
+.footer-section .description {
+    color: #ffffff;
+    opacity: 100%;
+}
+
+
+/* footer-style */
